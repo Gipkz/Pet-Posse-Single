@@ -1,0 +1,33 @@
+while wait() do
+local ohString1 = "Jellyfish"
+
+workspace.__THINGS.__REMOTES.selectSearched:FireServer(ohString1)
+
+local ohString1 = "Hammerhead"
+
+workspace.__THINGS.__REMOTES.selectSearched:FireServer(ohString1)
+
+local ohString1 = "Toucan"
+
+workspace.__THINGS.__REMOTES.selectSearched:FireServer(ohString1)
+
+local ohString1 = "Shark"
+
+workspace.__THINGS.__REMOTES.selectSearched:FireServer(ohString1)
+
+local ohString1 = "Turtle"
+
+workspace.__THINGS.__REMOTES.selectSearched:FireServer(ohString1)
+
+local ohInstance1 = game:GetService("Players").LocalPlayer.PlayerGui
+
+workspace.__THINGS.__REMOTES.confirmSellPetToMerchant:InvokeServer(ohInstance1)
+
+local ohInstance1 = game:GetService("Players").LocalPlayer
+
+workspace.__THINGS.__REMOTES.rebirth:InvokeServer(ohInstance1)
+
+local ohString1 = "Tropical Island Egg"
+
+workspace.__THINGS.__REMOTES.buyEgg:InvokeServer(ohString1)
+end
